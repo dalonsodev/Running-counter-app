@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'Speed Demon';
-    src: url('SpeedDemonRegular.woff2') format('woff2'),
-        url('SpeedDemonRegular.woff') format('woff');
+    src: url('/fonts/SpeedDemonRegular.woff2') format('woff2'),
+        url('/fonts/SpeedDemonRegular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -9,8 +9,8 @@
 
 @font-face {
     font-family: 'Hyper Oxide';
-    src: url('HyperOxide.woff2') format('woff2'),
-        url('HyperOxide.woff') format('woff');
+    src: url('/fonts/HyperOxide.woff2') format('woff2'),
+        url('/fonts/HyperOxide.woff') format('woff');
     font-weight: normal;
     font-style: italic;
     font-display: swap;
@@ -53,7 +53,7 @@ body {
 
 .container {
     position: absolute;
-    background-image: url("runner.webp");
+    background-image: url("/images/runner.webp");
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
@@ -130,7 +130,6 @@ button {
     width: 200px;
     margin-bottom: 5px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    /* font-style: italic; */
     letter-spacing: .2px;
     margin-top: .1rem;
 }
