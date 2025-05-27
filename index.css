@@ -52,9 +52,9 @@ body {
     overflow: hidden;
     touch-action: pan-y;
     height: 100%;
-  }
+}
   
-  .container {
+.container {
     position: absolute;
     background-image: url("/images/runner.webp");
     background-size: cover;
@@ -93,6 +93,7 @@ body {
     justify-content: center;
     border: 5px solid;
     box-shadow: 1px 1px 10px var(--counter-cyan);
+    margin: 3rem 0;
 }
 
 .counter-wrapper::before {
@@ -153,19 +154,22 @@ button {
 #save-el {
     margin-top: 2rem;
     padding: 0 1rem;
-    font-size: 1.2rem;
+    font-size: 1rem;
     letter-spacing: .2px;
     max-width: 90%;
+    max-height: 160px;
+    overflow-y: scroll;
     line-height: 1.5;
 }
 
 @media (max-width: 574px) {
     .counter-wrapper {
-      max-width: 270px;
+      width: 250px;
+      max-width: 250px;
     }
 
     #save-el {
-      max-width: 280px;
+      max-width: 200px;
     }
 }
 
