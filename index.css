@@ -158,3 +158,15 @@ button {
     max-width: 90%;
     line-height: 1.5;
 }
+
+@media (max-width: 574px) {
+    .counter-wrapper {
+      max-width: 75%;
+    }
+}
+
+@media (min-width: 576px) {
+    .counter-wrapper {
+      max-width: 400px;
+    }
+}
